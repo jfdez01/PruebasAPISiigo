@@ -85,7 +85,12 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{}"
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
         },
         "url": "https://reqres.in/api/users/23"
       },
