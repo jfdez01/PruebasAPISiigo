@@ -7,7 +7,7 @@
   "item": [
     {
       "name": "Siigo - List User",
-      "_postman_id": "e96493dd-74ac-4ec0-a6cc-48d8a4f58758",
+      "id": "e96493dd-74ac-4ec0-a6cc-48d8a4f58758",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -22,10 +22,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"page\":2,\"per_page\":6,\"total\":12,\"total_pages\":2,\"data\":[{\"id\":7,\"email\":\"michael.lawson@reqres.in\",\"first_name\":\"Michael\",\"last_name\":\"Lawson\",\"avatar\":\"https://reqres.in/img/faces/7-image.jpg\"},{\"id\":8,\"email\":\"lindsay.ferguson@reqres.in\",\"first_name\":\"Lindsay\",\"last_name\":\"Ferguson\",\"avatar\":\"https://reqres.in/img/faces/8-image.jpg\"},{\"id\":9,\"email\":\"tobias.funke@reqres.in\",\"first_name\":\"Tobias\",\"last_name\":\"Funke\",\"avatar\":\"https://reqres.in/img/faces/9-image.jpg\"},{\"id\":10,\"email\":\"byron.fields@reqres.in\",\"first_name\":\"Byron\",\"last_name\":\"Fields\",\"avatar\":\"https://reqres.in/img/faces/10-image.jpg\"},{\"id\":11,\"email\":\"george.edwards@reqres.in\",\"first_name\":\"George\",\"last_name\":\"Edwards\",\"avatar\":\"https://reqres.in/img/faces/11-image.jpg\"},{\"id\":12,\"email\":\"rachel.howell@reqres.in\",\"first_name\":\"Rachel\",\"last_name\":\"Howell\",\"avatar\":\"https://reqres.in/img/faces/12-image.jpg\"}],\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{\"page\":2,\"per_page\":6,\"total\":12,\"total_pages\":2,\"data\":[{\"id\":7,\"email\":\"michael.lawson@reqres.in\",\"first_name\":\"Michael\",\"last_name\":\"Lawson\",\"avatar\":\"https://reqres.in/img/faces/7-image.jpg\"},{\"id\":8,\"email\":\"lindsay.ferguson@reqres.in\",\"first_name\":\"Lindsay\",\"last_name\":\"Ferguson\",\"avatar\":\"https://reqres.in/img/faces/8-image.jpg\"},{\"id\":9,\"email\":\"tobias.funke@reqres.in\",\"first_name\":\"Tobias\",\"last_name\":\"Funke\",\"avatar\":\"https://reqres.in/img/faces/9-image.jpg\"},{\"id\":10,\"email\":\"byron.fields@reqres.in\",\"first_name\":\"Byron\",\"last_name\":\"Fields\",\"avatar\":\"https://reqres.in/img/faces/10-image.jpg\"},{\"id\":11,\"email\":\"george.edwards@reqres.in\",\"first_name\":\"George\",\"last_name\":\"Edwards\",\"avatar\":\"https://reqres.in/img/faces/11-image.jpg\"},{\"id\":12,\"email\":\"rachel.howell@reqres.in\",\"first_name\":\"Rachel\",\"last_name\":\"Howell\",\"avatar\":\"https://reqres.in/img/faces/12-image.jpg\"}],\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}"
         },
         "url": {
           "raw": "https://reqres.in/api/users?page=2",
@@ -50,7 +47,7 @@
     },
     {
       "name": "Siigo - Single User",
-      "_postman_id": "bf560e61-4984-4a06-9143-cb65a3184978",
+      "id": "bf560e61-4984-4a06-9143-cb65a3184978",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -65,10 +62,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"data\":{\"id\":2,\"email\":\"janet.weaver@reqres.in\",\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://reqres.in/img/faces/2-image.jpg\"},\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{\"data\":{\"id\":2,\"email\":\"janet.weaver@reqres.in\",\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://reqres.in/img/faces/2-image.jpg\"},\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}"
         },
         "url": "https://reqres.in/api/users/2"
       },
@@ -76,7 +70,7 @@
     },
     {
       "name": "Siigo - Single User not found",
-      "_postman_id": "4008cca0-02ac-4128-a686-7ab999f3781e",
+      "id": "4008cca0-02ac-4128-a686-7ab999f3781e",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -91,10 +85,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{}"
         },
         "url": "https://reqres.in/api/users/23"
       },
@@ -102,7 +93,7 @@
     },
     {
       "name": "Siigo - List <resource>",
-      "_postman_id": "e734d5dc-fcfc-44fb-9d92-b0f9376ab671",
+      "id": "e734d5dc-fcfc-44fb-9d92-b0f9376ab671",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -119,7 +110,9 @@
           "mode": "raw",
           "raw": "{\"page\":1,\"per_page\":6,\"total\":12,\"total_pages\":2,\"data\":[{\"id\":1,\"name\":\"cerulean\",\"year\":2000,\"color\":\"#98B2D1\",\"pantone_value\":\"15-4020\"},{\"id\":2,\"name\":\"fuchsia rose\",\"year\":2001,\"color\":\"#C74375\",\"pantone_value\":\"17-2031\"},{\"id\":3,\"name\":\"true red\",\"year\":2002,\"color\":\"#BF1932\",\"pantone_value\":\"19-1664\"},{\"id\":4,\"name\":\"aqua sky\",\"year\":2003,\"color\":\"#7BC4C4\",\"pantone_value\":\"14-4811\"},{\"id\":5,\"name\":\"tigerlily\",\"year\":2004,\"color\":\"#E2583E\",\"pantone_value\":\"17-1456\"},{\"id\":6,\"name\":\"blue turquoise\",\"year\":2005,\"color\":\"#53B0AE\",\"pantone_value\":\"15-5217\"}],\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
           "options": {
-            "raw": {}
+            "raw": {
+              "language": "json"
+            }
           }
         },
         "url": "https://reqres.in/api/unknown"
@@ -128,7 +121,7 @@
     },
     {
       "name": "Siigo - Single <resource>",
-      "_postman_id": "0d59994f-ccbd-4be9-a18e-e6730b357554",
+      "id": "0d59994f-ccbd-4be9-a18e-e6730b357554",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -143,10 +136,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\"data\":{\"id\":2,\"name\":\"fuchsia rose\",\"year\":2001,\"color\":\"#C74375\",\"pantone_value\":\"17-2031\"},\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{\"data\":{\"id\":2,\"name\":\"fuchsia rose\",\"year\":2001,\"color\":\"#C74375\",\"pantone_value\":\"17-2031\"},\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}"
         },
         "url": "https://reqres.in/api/unknown/2"
       },
@@ -154,7 +144,7 @@
     },
     {
       "name": "Siigo - Single <resource> not found",
-      "_postman_id": "b3528406-f900-4b45-8ea2-47385d8baf6f",
+      "id": "b3528406-f900-4b45-8ea2-47385d8baf6f",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -169,10 +159,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{}"
         },
         "url": "https://reqres.in/api/unknown/23"
       },
@@ -180,7 +167,7 @@
     },
     {
       "name": "Siigo - Create",
-      "_postman_id": "e60bfb04-9bc0-43f2-9e78-d3685d06e8a3",
+      "id": "e60bfb04-9bc0-43f2-9e78-d3685d06e8a3",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -208,7 +195,7 @@
     },
     {
       "name": "Siigo - Update",
-      "_postman_id": "3b7d594f-462f-41b4-bb0b-54c71839e81a",
+      "id": "3b7d594f-462f-41b4-bb0b-54c71839e81a",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -236,7 +223,7 @@
     },
     {
       "name": "Siigo - Update",
-      "_postman_id": "d6419c8d-90f6-4553-9579-47db987dd43c",
+      "id": "d6419c8d-90f6-4553-9579-47db987dd43c",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -256,10 +243,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"zion resident\"\r\n}",
-          "options": {
-            "raw": {}
-          }
+          "raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"zion resident\"\r\n}"
         },
         "url": {
           "raw": "https://reqres.in/api/users/2",
@@ -295,7 +279,7 @@
     },
     {
       "name": "Siigo - Delete",
-      "_postman_id": "e42c4cb6-37a7-4a7b-9006-fd1dea17d503",
+      "id": "e42c4cb6-37a7-4a7b-9006-fd1dea17d503",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -323,7 +307,7 @@
     },
     {
       "name": "Siigo - Registre Successful",
-      "_postman_id": "d112cb96-2218-40ac-845a-7617359ecab3",
+      "id": "d112cb96-2218-40ac-845a-7617359ecab3",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -351,7 +335,7 @@
     },
     {
       "name": "Siigo - Registre Unsuccessful",
-      "_postman_id": "800df427-4dfe-4ba4-b3ca-fdd97e2cb150",
+      "id": "800df427-4dfe-4ba4-b3ca-fdd97e2cb150",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -379,7 +363,7 @@
     },
     {
       "name": "Siigo - Login Successful",
-      "_postman_id": "775c42b4-1e25-442c-ab7e-6aa89c56f3df",
+      "id": "775c42b4-1e25-442c-ab7e-6aa89c56f3df",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -407,7 +391,7 @@
     },
     {
       "name": "Siigo - Login Unsuccessful",
-      "_postman_id": "dc85c7ad-9281-4497-81f4-9c78adda0f8e",
+      "id": "dc85c7ad-9281-4497-81f4-9c78adda0f8e",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -435,7 +419,7 @@
     },
     {
       "name": "Siigo - Delayed Response",
-      "_postman_id": "55e67db3-b246-43ea-9f16-07da0cac742d",
+      "id": "55e67db3-b246-43ea-9f16-07da0cac742d",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
